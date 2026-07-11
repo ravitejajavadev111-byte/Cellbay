@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import MenuOverlay from './components/MenuOverlay';
 import MobileBottomNav from './components/MobileBottomNav';
 import Hero from './components/Hero';
+import Ticker from './components/Ticker';
 import CategoryGrid from './components/CategoryGrid';
 import ShopByBrand from './components/ShopByBrand';
 import TrustBar from './components/TrustBar';

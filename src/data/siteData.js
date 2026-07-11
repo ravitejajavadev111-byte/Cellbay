@@ -24,12 +24,13 @@ export const heroSlides = [
     grad: 'linear-gradient(120deg,#EAEAEA 0%,#F5EEDD 55%,#E4EBF5 100%)',
   },
 ];
-
+export const tickerItems = [
+  'Free Delivery Pan-India', '100% Original Products', 'No Cost EMI Available',
+  '14-Day Easy Returns', 'Upto ₹20,000 Exchange Bonus', 'Authorized Multi-Brand Retailer',
+];
 export const categories = [
   { label: 'Mobiles', icon: 'Smartphone', bg: '#E8F0FE' },
   { label: 'Audio', icon: 'Headphones', bg: '#E7F5E9' },
-  { label: 'Wearables', icon: 'Watch', bg: '#FCEFE0' },
-  { label: 'Tablets', icon: 'Tablet', bg: '#F1E9FB' },
   { label: 'Accessories', icon: 'Cable', bg: '#FBE9EC' },
   { label: 'Laptops', icon: 'Laptop', bg: '#E6EEFB' },
   { label: 'More', icon: 'Grid2x2', bg: '#EFF0F2' },
@@ -37,9 +38,8 @@ export const categories = [
 
 export const trustBadges = [
   { icon: 'ShieldCheck', title: '100%', sub: 'Original Products', color: 'var(--cb-red)' },
-  { icon: 'Truck', title: 'Free', sub: 'Fast Delivery', color: 'var(--cb-blue)' },
-  { icon: 'CreditCard', title: 'Easy', sub: 'EMI Options', color: 'var(--cb-green)' },
-  { icon: 'RotateCcw', title: '14 Days', sub: 'Easy Returns', color: 'var(--cb-red)' },
+  { icon: 'CreditCard', title: 'Easy', sub: 'EMI Options', color: 'var(--cb-blue)' },
+  { icon: 'Repeat', title: 'Exchange', sub: 'Old Phones', color: 'var(--cb-green)' },
 ];
 
 export const brands = [

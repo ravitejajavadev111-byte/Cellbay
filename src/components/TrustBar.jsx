@@ -1,7 +1,7 @@
-import { ShieldCheck, Truck, CreditCard, RotateCcw } from 'lucide-react';
+import { ShieldCheck, CreditCard, Repeat } from 'lucide-react';
 import { trustBadges } from '../data/siteData';
 
-const iconMap = { ShieldCheck, Truck, CreditCard, RotateCcw };
+const iconMap = { ShieldCheck, CreditCard, Repeat };
 
 export default function TrustBar() {
   return (
@@ -11,7 +11,7 @@ export default function TrustBar() {
           const Icon = iconMap[b.icon];
           return (
             <div key={b.title} className="trustbar__item">
-              <Icon size={20} strokeWidth={1.8} color={b.color} />
+              <Icon size={19} strokeWidth={1.8} color={b.color} />
               <div><p className="trustbar__title">{b.title}</p><p className="trustbar__sub">{b.sub}</p></div>
             </div>
           );
