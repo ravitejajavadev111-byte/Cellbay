@@ -1,13 +1,12 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ArrowUpRight, Smartphone, Headphones, Laptop, Watch, Tablet, Camera } from 'lucide-react';
+import { X, ArrowUpRight, Smartphone, Tablet, Tv, Laptop, Cable } from 'lucide-react';
 
 const links = [
-  { label: 'Mobiles', icon: Smartphone },
-  { label: 'Audio', icon: Headphones },
+  { label: 'Smartphones', icon: Smartphone },
+  { label: 'Tabs', icon: Tablet },
+  { label: 'TVs', icon: Tv },
   { label: 'Laptops', icon: Laptop },
-  { label: 'Wearables', icon: Watch },
-  { label: 'Tablets', icon: Tablet },
-  { label: 'Cameras', icon: Camera },
+  { label: 'Accessories', icon: Cable },
 ];
 
 export default function MenuOverlay({ open, onClose }) {

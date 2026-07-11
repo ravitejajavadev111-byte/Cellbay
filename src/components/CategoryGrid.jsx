@@ -1,7 +1,7 @@
-import { Smartphone, Headphones, Cable, Laptop, Grid2x2 } from 'lucide-react';
+import { Smartphone, Tablet, Tv, Laptop, Cable } from 'lucide-react';
 import { categories } from '../data/siteData';
 
-const iconMap = { Smartphone, Headphones, Cable, Laptop, Grid2x2 };
+const iconMap = { Smartphone, Tablet, Tv, Laptop, Cable };
 
 export default function CategoryGrid() {
   return (
