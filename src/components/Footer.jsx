@@ -1,20 +1,7 @@
-import {
-  ShieldCheck,
-  Truck,
-  Headphones,
-  MapPin,
-  Phone,
-} from "lucide-react";
-
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
-
+import {ShieldCheck,Truck,Headphones,MapPin,Phone,} from "lucide-react";
+import {FaFacebookF,FaInstagram,FaYoutube,} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { footerLinks } from '../data/siteData';
-
 
 export default function Footer() {
   return (

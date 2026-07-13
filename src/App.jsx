@@ -21,7 +21,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <Navbar onMenuOpen={() => setMenuOpen(true)} />
       <MenuOverlay open={menuOpen} onClose={() => setMenuOpen(false)} />
       <main>
         <Hero />
