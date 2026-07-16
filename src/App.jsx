@@ -12,8 +12,7 @@ import ExchangeBanner from './components/ExchangeBanner';
 import BestSellers from './components/BestSellers';
 import TopPicks from './components/TopPicks';
 import Testimonials from './components/Testimonials';
-import CTASection from './components/CTASection';
-import Footer from './components/Footer';
+import Finale from './components/CTA+Footer';
 import './index.css';
 
 export default function App() {
@@ -33,9 +32,9 @@ export default function App() {
         <BestSellers />
         <TopPicks />
         <Testimonials />
-        <CTASection />
+        <Finale />
       </main>
-      <Footer />
+
       <MobileBottomNav />
       <div className="only-mobile-flex" style={{ height: 70 }} />
     </div>
